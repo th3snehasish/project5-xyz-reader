@@ -135,8 +135,8 @@
         android:layout_marginBottom="@dimen/fab_margin"
         android:layout_marginRight="@dimen/fab_margin"
         android:contentDescription="@string/action_share"
-        android:elevation="@dimen/fab_elevation"
         android:src="@drawable/ic_share"
+        app:layout_behavior="com.example.xyzreader.ui.FavScrollBehavior"
         android:stateListAnimator="@anim/fab_state_list_anim"/>
 
 
